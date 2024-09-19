@@ -1,0 +1,288 @@
+/* body {
+    font-family: '"Helvetica Neue", Helvetica, Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav {
+    background-color: #333;
+    padding: 1em;
+
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* .serum{
+    width:1
+} */ 
+
+/* Global Styles */
+body {
+   font-family: '"Helvetica Neue", Helvetica, Arial, sans-serif';
+    padding: 0;
+    background-color: #FFF0F5
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.navbar {
+    background-color: #FFF0F5;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar-brand img {
+    
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.hero {
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: linear-gradient(-90deg, rgba(48, 9, 53, 0) 25%, rgba(48, 9, 53, 0.7) 66%, #2b0732), linear-gradient(rgba(48, 9, 53, 0.6), rgba(48, 9, 53, 0.6)), url(https://dramybrenner.com/wp-content/uploads/2021/01/rsz_skin-care-lzre7cn.jpg);
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    /* text-align: center; */
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-get-started {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-get-started:hover {
+    background-color: #0056b3;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.features .row {
+    margin-top: 20px;
+}
+
+.features .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.features i {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.features h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 18px;
+}
+
+.feature-card {
+    margin: auto;width: fit-content;
+}
+
+.testimonials {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+.testimonial-container {
+    display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 20px;
+}
+.testimonials .row {
+    margin-top: 20px;
+}
+
+.testimonials .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    font-size: 16px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact .row {
+    margin-top: 20px;
+}
+
+.contact .col-md-6 {
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonial-container{
+        flex-direction: column;
+    }
+    .feature-card {
+        width: 100%;
+        text-align: center;
+    }
+  }
